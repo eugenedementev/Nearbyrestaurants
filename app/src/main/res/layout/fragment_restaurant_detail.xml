@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="me.eugenedementev.nearbyrestaurants.RestaurantDetailFragment"
+    tools:showIn="@layout/activity_restaurant_detail"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/restaurantImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@color/cast_expanded_controller_progress_text_color" />
+
+    <TextView
+        android:id="@+id/restaurantNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_title_activity_restaurant_detail"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/phoneNumberTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
+        android:textColor="@color/dark_grey"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/categories_title_activity_restaurant_detail"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/categoryTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
+        android:textColor="@color/dark_grey"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rating_title_activity_restaurant_detail"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/ratingTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
+        android:textColor="@color/dark_grey"
+        />
+
+</LinearLayout>
